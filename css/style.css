@@ -1,23 +1,106 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .body{
-    text-align: left;
-    background: #fff;
-    color: #000000;
-    font-size: 24px;
-    line-height: 1.7;
-   
+text-align: center;
+background: #fff;
+color: #000000;
+font-size: 24px;
+line-height: 1.7;  
+}
+
+.navigation{
+  background: transparent;
+  padding:12px 0;
+  color: #ffffff;
+}
+.navigation ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+.navigation ul li {
+ display: inline-block;
+ position: relative;
+ margin: 0 36px 0 0;
+ padding: 0;
+ font-family: 'PT Sans', Sans-Serif;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navigation a:hover {
+ color: #33d9b2;
+ background: #FFFFFF;
+}
+
+nav ul ul{
+  display: none;
+}
+
+
+.navigation li:hover .second-line { 
+ display: block;
+ text-align: center;
+ font-family: 'PT Sans', Sans-Serif;
+ padding: 8px 24px 0 0;
+ margin: 0 12px 0 30px;
+ position: absolute;
+ background: #ffffff;
+ left: 50%;
+ transform: translateX(-50%); 
 }
 
 .splash {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 0 24px;
-    background-image: url('https://i.postimg.cc/76zH0vJy/pexels-fox-1038916.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh
-    }
+position: relative;
+display: flex;
+flex-direction: column;
+padding: 0 24px;
+background-image: url('https://i.postimg.cc/76zH0vJy/pexels-fox-1038916.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.page-title{
+  margin: 0;
+  font-family: 'PT Sans', Sans-Serif;
+  color: #ffffff;
+  font-size: 60px;
+  word-spacing: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.page-subtitle{
+  font-family: 'Playfair Display', Serif;
+  color: #ffffff;
+  margin: 24px 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 18px 24px 18px 24px;
+  font-size: 16px;
+  background-color: #e7eb0d;
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: 'PT Sans', Sans-Serif;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: lighten(#e7eb0d, 10%);
+  color: #FFFFFF;
+  }
   
   .page-intro {
     margin: auto;
@@ -39,9 +122,9 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
-    color: #ffffff;
+    color: #000000;
     font-size: 32px;
-    background-color: #000000;
+    background-color: #e7eb0d;
     border-radius: 50%;
     box-shadow: 4px 4px 
     darken(#000, 20%);
@@ -58,3 +141,6 @@
     padding: 0 24px;
   }
   
+  .gallery{
+    background: #b2bec3;
+  }
