@@ -6,3 +6,55 @@
     line-height: 1.7;
    
 }
+
+.splash {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    background-image: url('https://i.postimg.cc/76zH0vJy/pexels-fox-1038916.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+    }
+  
+  .page-intro {
+    margin: auto;
+    text-align: center;
+  }
+
+  .features-wrapper {
+    display: flex;
+  }
+  
+  .feature {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    text-align: center;
+    margin: 24px 0 0 0;
+  } 
+  
+  .feature i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    box-shadow: 4px 4px 
+    darken(#000, 20%);
+  }
+  
+  .feature-title {
+    margin: 24px 0 0 0;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .feature-description {
+    margin: 24px 0 0 0;
+    padding: 0 24px;
+  }
+  
