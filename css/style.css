@@ -71,6 +71,7 @@ text-align: center;
 } 
 
 .navigation{
+  display: block;
   background: transparent;
   color: #ffffff;
   
@@ -99,7 +100,7 @@ text-align: center;
 }
 
 .navigation a:hover {
- color: #bd9b03;
+ color: #000;
  background: #FFFFFF;
 }
 
@@ -227,7 +228,6 @@ nav ul ul{
    
    .social-links li a{
    display: block;
-   text-align: center;
    width: 50px;
    height: 50px;
    line-height: 50px;
