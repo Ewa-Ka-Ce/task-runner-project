@@ -10,6 +10,19 @@ font-size: 24px;
 line-height: 1.7;  
 }
 
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url('https://i.postimg.cc/76zH0vJy/pexels-fox-1038916.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  }
+  
+
 .navigation{
   background: transparent;
   padding:12px 0;
@@ -56,17 +69,6 @@ nav ul ul{
  transform: translateX(-50%); 
 }
 
-.splash {
-position: relative;
-display: flex;
-flex-direction: column;
-padding: 0 24px;
-background-image: url('https://i.postimg.cc/76zH0vJy/pexels-fox-1038916.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-}
 
 .page-title{
   margin: 0;
